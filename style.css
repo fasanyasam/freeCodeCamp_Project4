@@ -1,0 +1,54 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(85, 84, 84);
+}
+hr{
+    width: 300px;
+    margin-left: -50px;
+}
+nav{
+    height : 100%;
+    width: 20%;
+    position: fixed;
+    font: 18px bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    overflow: scroll;
+}
+
+nav ul li {
+    padding: 5px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+}
+h1{
+    font-size: 30px;
+    font-weight: normal;
+    color: black;
+}
+
+main{
+    position: absolute;
+    left: 300px;
+    padding-left: 35px ;
+}
+h2{
+    font-size: 30px;
+    font-weight: 520;
+    color: black;
+}
+p{
+    font-weight: normal;
+}
+code{
+    background-color: gainsboro;
+    padding: 10px ;
+}
